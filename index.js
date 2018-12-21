@@ -2,6 +2,7 @@
 function theBeatlesPlay(musicians, instruments) {
   var instruments_per_musician = [];
   
+<<<<<<< HEAD
   for( var i = 0; i < musicians.length; i++ ) {
     instruments_per_musician.push( `${musicians[i]} plays ${instruments[i]}` );
   }
@@ -31,4 +32,11 @@ function iLoveTheBeatles(number) {
   } while( number < 15 );
   
   return array;
+=======
+  for( musicians, ) {
+    
+  }
+  
+  return instruments_per_musician;
+>>>>>>> 12057cd254bb57f6fbd326fe3f7d50c13bc59220
 }
